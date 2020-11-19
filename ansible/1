@@ -41,7 +41,7 @@
 
     - name: "Build-Setp - Login to remote Repository"
       docker_login:
-        username: devopsclasss2020
+        username: fujikomalan
         password: "{{ docker_password }}"
 
             
@@ -77,7 +77,7 @@
   hosts: dev
   become: true
   vars:
-    image_name: "{{ image_name }}"
+    image_name: "devopsclasss2020/ajcicd"
     
   tasks:
     
