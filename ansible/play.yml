@@ -106,7 +106,7 @@
     - name: "Deployment - Run Container"
       docker_container:
         name: webserver
-        image: "{{ image_name }}":latest
+        image: "devopsclasss2020/ajcicd:latest"
         recreate: yes
         pull: yes
         published_ports:
